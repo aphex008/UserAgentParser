@@ -1,5 +1,5 @@
 {
-    "name": "thadafinser/user-agent-parser",
+    "name": "aphex008/UserAgentParser",
     
     "description": "UserAgentParser abstraction for different parse providers",
     "keywords": [
