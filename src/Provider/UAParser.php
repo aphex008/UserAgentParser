@@ -115,9 +115,9 @@ class UAParser extends AbstractProvider
      */
     public function __construct(Parser $parser = null)
     {
-        if ($parser === null && ! file_exists('vendor/' . $this->getPackageName() . '/composer.json')) {
-            throw new PackageNotLoadedException('You need to install the package ' . $this->getPackageName() . ' to use this provider');
-        }
+//        if ($parser === null && ! file_exists('vendor/' . $this->getPackageName() . '/composer.json')) {
+//            throw new PackageNotLoadedException('You need to install the package ' . $this->getPackageName() . ' to use this provider');
+//        }
 
         $this->parser = $parser;
     }
